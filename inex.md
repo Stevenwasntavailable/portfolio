@@ -6,7 +6,7 @@
 
 OOP graphical calculator built in processing 4
 
-![Running Calculator]()
+![Running Calculator](https://github.com/Stevenwasntavailable/portfolio/blob/main/images/Calc.png?raw=true)
 
 [Calculator Source Code]()
 
