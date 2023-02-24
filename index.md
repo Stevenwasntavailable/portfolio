@@ -28,6 +28,6 @@ OOP screen saver built in processing 4
 
 ###Pig Lating Translator
 
-![Running Pig Latin Translator]
+![Running Pig Latin Translator](https://github.com/Stevenwasntavailable/portfolio/blob/main/images/pig%20latin.png)
 
-[Pig Latin Translator]
+[Pig Latin Translator]()
