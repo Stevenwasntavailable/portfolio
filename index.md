@@ -10,7 +10,7 @@ OOP graphical calculator built in processing 4
 
 [Calculator Source Code](https://github.com/Stevenwasntavailable/portfolio/tree/main/src/calc)
 
-###Space Game
+### Space Game
 
 OOP game in space built in processing 4
 
@@ -18,7 +18,7 @@ OOP game in space built in processing 4
 
 [Space Game Sorce Code](https://github.com/Stevenwasntavailable/portfolio/tree/main/src/Space%20Game)
 
-###Screen saver
+### Screen saver
 
 OOP screen saver built in processing 4
 
@@ -26,7 +26,7 @@ OOP screen saver built in processing 4
 
 [Screen Saver Source Code](https://github.com/Stevenwasntavailable/portfolio/tree/main/src/Screen%20Saver)
 
-###Pig Lating Translator
+### Pig Lating Translator
 
 ![Running Pig Latin Translator](https://github.com/Stevenwasntavailable/portfolio/blob/main/images/pig%20latin.png)
 
