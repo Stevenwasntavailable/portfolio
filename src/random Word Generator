@@ -1,0 +1,29 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+String[] prefixes = {"pre", "dis", "in", "re", "un", "over", "out", "mis", "inter", "super", "sub", "trans", "auto", "bi", "co", "macro", "micro", "mono", "multi", "post"};
+String[] suffixes = {"able", "ful", "ing", "less", "ment", "ness", "ous", "s", "y", "al", "ance", "ence", "dom", "er", "est", "ify", "ize", "ly", "ship", "ward", "wise"};
+String[] roots = {"act", "aud", "bibl", "bio", "chron", "dict", "equi", "gen", "hypo", "log", "morph", "ped", "phil", "psych", "spect", "struct", "tele", "therm", "vid", "viv"};
+
+String[] prefixDefs = {"before", "not", "not", "again", "not", "excessive", "outside", "wrongly", "between", "above", "under", "across", "self", "two", "together", "large", "small", "one", "many", "after"};
+String[] suffixDefs = {"capable of", "full of", "having the quality of", "without", "action or process", "state or condition", "full of", "plural", "characterized by", "related to", "state or quality of", "state or quality of", "domain of", "comparative", "superlative", "make or become", "make or become", "in the manner of", "position or relation", "in the direction of", "in the manner of"};
+String[] rootDefs = {"act or do", "hear or listen", "book", "life", "time", "say or speak", "equal or even", "birth or race", "under", "study or science", "form or shape", "foot or child", "love or liking", "mind or soul", "see or watch", "build or arrange", "far", "heat", "see or look", "live or life"};
+
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("How many random words do you want? ");
+int numWords = scanner.nextInt();
+
+Random random = new Random();
+for (int i = 0; i < numWords; i++) {
+int prefixIndex = random.nextInt(prefixes.length);
+int suffixIndex = random.nextInt(suffixes.length);
+int rootIndex = random.nextInt(roots.length);
+String word = prefixes[prefixIndex] + roots[rootIndex] + suffixes[suffixIndex];
+String definition = prefixDefs[prefixIndex] + " " + rootDefs[rootIndex] + " " + suffixDefs[suffixIndex];
+System.out.println(word + ": " + definition);
+}
+}
+}
