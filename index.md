@@ -40,6 +40,6 @@ OOP screen saver built in processing 4
 
 ## Group Project
 
-### We did a snake game with java in processinf 4
+### We did a snake game with java in processing 4.
 
-![Group Project Link](https://github.com/banananabusiness/project.git)
+[Group Project Link](https://github.com/banananabusiness/project.git)
